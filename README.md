@@ -1,16 +1,18 @@
 # JustBarber Athens
 
+[**Open the live JustBarber website**](https://trigono1.github.io/Trigonos/dist/)
+
 A responsive Greek and English barbershop site with service prices, a photo gallery, visiting details, and booking through JustBarber's existing Setmore account.
 
 ## Run locally
 
-Serve the static site from the repository root.
+To run a local copy, clone the repository and run this command from its root.
 
 ```sh
 python3 -m http.server 8080 --directory dist
 ```
 
-Open http://localhost:8080. The site uses plain HTML, CSS, and JavaScript with no dependencies or build step.
+While the server is running, open `http://localhost:8080` on the same computer. The site uses plain HTML, CSS, and JavaScript with no dependencies or build step.
 
 ## Maintain the site
 
